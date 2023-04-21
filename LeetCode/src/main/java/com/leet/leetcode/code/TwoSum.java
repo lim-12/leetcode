@@ -3,12 +3,14 @@ package com.leet.leetcode.code;
 import java.util.HashMap;
 import java.util.Map;
 
-    /*
+/*
     Link : https://leetcode.com/problems/two-sum/
-    Description    - 정수 배열 nums와 정수가 주어지면 두 숫자의 합에 해당하는 인덱스를 반환합니다.
+    Description
+    - 정수 배열 nums와 정수가 주어지면 두 숫자의 합에 해당하는 인덱스를 반환합니다.
     - 각 입력에 정확히 하나의 값이 있다고 가정하며, 동일한 요소를 두 번 사용할 수 없습니다.
 
-    Example    입력: nums = [2,7,11,15], target = 9
+    Example
+    입력: nums = [2,7,11,15], target = 9
     출력: [0,1]
     설명 : nums[0] + nums[1] == 9이므로 [0, 1]을 반환합니다.
 
@@ -22,7 +24,7 @@ import java.util.Map;
     - 2 <= nums.length <= 10^4
     - -10^9 <= nums[i] <= 10^9
     - -10^9 <= target <= 10^9
-    */
+*/
 public class TwoSum
 {
     /*
